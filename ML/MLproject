@@ -1,0 +1,5 @@
+name: LSTM_Project
+conda_env: conda.yml
+entry_points:
+    Training:
+        command: "python train.py"
